@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "name": "Tinazzi Ca' de' Rocchi", "beschreibung": "Primitivo, Apulien – vollmundig, würzig", "preis_glas": "6,50", "preis_flasche": "28,00" },
+    { "name": "Château Larose", "beschreibung": "Bordeaux – elegant, tanninreich", "preis_glas": "7,50", "preis_flasche": "34,00" },
+    { "name": "Grüner Veltliner", "beschreibung": "Österreich – frisch, pfeffrig", "preis_glas": "5,90", "preis_flasche": "26,00" }
+  ]
+}

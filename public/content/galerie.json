@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "bild": "/images/img_5034.jpg",
+      "alt": "B1"
+    },
+    {
+      "bild": "/images/pexels-elina-sazonova-1850588.jpg",
+      "alt": "B2"
+    },
+    {
+      "bild": "/images/pexels-taha-balta-3031128-4628559.jpg",
+      "alt": "B3"
+    },
+    {
+      "bild": "/images/img_5033.jpg",
+      "alt": "B4"
+    },
+    {
+      "bild": "/images/pexels-maksgelatin-5550309.jpg",
+      "alt": "B5"
+    },
+    {
+      "bild": "/images/pexels-chevanon-1108117.jpg",
+      "alt": "B6"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anleitung – Shelby's Website verwalten</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #1a1a1a; font-size: 15px; line-height: 1.6; }
+
+  .header { background: #0e0e0e; padding: 2.5rem 3rem; }
+  .header h1 { font-size: 1.4rem; color: #A06B3B; font-weight: 700; }
+  .header p { color: #777; font-size: 0.85rem; margin-top: 0.3rem; }
+
+  .main { max-width: 760px; margin: 0 auto; padding: 3rem 2rem; }
+
+  .intro-box {
+    background: #fff8f0;
+    border-left: 4px solid #A06B3B;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0 4px 4px 0;
+  }
+  .intro-box p { font-size: 0.9rem; color: #444; }
+  .intro-box strong { color: #A06B3B; }
+
+  .step { background: white; border-radius: 8px; padding: 1.8rem 2rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .step-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; background: #A06B3B; color: white;
+    border-radius: 50%; font-weight: 700; font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }
+  .step h2 { font-size: 1rem; font-weight: 600; margin-bottom: 0.6rem; }
+  .step p { font-size: 0.88rem; color: #555; margin-bottom: 0.5rem; }
+  .step .url-box {
+    background: #f0f0f0; padding: 0.6rem 1rem; border-radius: 4px;
+    font-family: monospace; font-size: 0.85rem; color: #222;
+    margin: 0.8rem 0; word-break: break-all;
+  }
+  .step ul { margin: 0.5rem 0 0 1.2rem; }
+  .step ul li { font-size: 0.85rem; color: #555; margin-bottom: 0.3rem; }
+
+  .tip {
+    background: #f0faf0; border: 1px solid #c8e6c9; padding: 1rem 1.4rem;
+    border-radius: 6px; margin-top: 0.8rem;
+  }
+  .tip p { font-size: 0.82rem; color: #388e3c; margin: 0; }
+  .tip p::before { content: '💡 '; }
+
+  .warning {
+    background: #fff8e1; border: 1px solid #ffe082; padding: 1rem 1.4rem;
+    border-radius: 6px; margin-top: 0.8rem;
+  }
+  .warning p { font-size: 0.82rem; color: #f57f17; margin: 0; }
+  .warning p::before { content: '⚠️ '; }
+
+  .section-title {
+    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: #A06B3B; margin: 2.5rem 0 1rem; font-weight: 600;
+  }
+
+  .contact-box {
+    background: #0e0e0e; color: #9e9488; padding: 1.8rem 2rem;
+    border-radius: 8px; margin-top: 2.5rem; font-size: 0.85rem;
+  }
+  .contact-box strong { color: #A06B3B; display: block; margin-bottom: 0.8rem; font-size: 1rem; }
+  .contact-box a { color: #A06B3B; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Shelby's Burger & Vino — Website-Anleitung</h1>
+  <p>So verwalten Sie Ihre Website selbst · Stand: März 2026</p>
+</div>
+
+<main class="main">
+
+  <div class="intro-box">
+    <p>Diese Anleitung erklärt Ihnen in wenigen Schritten, wie Sie Ihre Website jederzeit selbst aktualisieren können — <strong>ohne Programmierkenntnisse</strong>. Speisekarte, Öffnungszeiten, Fotos und Texte ändern Sie bequem über ein einfaches Online-Formular.</p>
+  </div>
+
+  <div class="section-title">So funktioniert es</div>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <h2>Das Backend aufrufen</h2>
+    <p>Öffnen Sie in Ihrem Browser folgende Adresse:</p>
+    <div class="url-box">https://shelbysriesaburgerundvino.netlify.app/admin</div>
+    <p>Sie sehen ein Anmeldeformular. Melden Sie sich mit Ihrer E-Mail-Adresse an.</p>
+    <div class="tip"><p>Lesezeichen setzen! Dann ist das Backend immer schnell erreichbar.</p></div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">2</div>
+    <h2>Den Bereich auswählen</h2>
+    <p>Nach dem Login sehen Sie links ein Menü mit folgenden Bereichen:</p>
+    <ul>
+      <li><strong>Öffnungszeiten</strong> — Zeiten für jeden Wochentag ändern</li>
+      <li><strong>Speisekarte</strong> — Burger, Weine, Cocktails und Snacks pflegen</li>
+      <li><strong>Galerie</strong> — bis zu 6 Fotos hochladen und austauschen</li>
+      <li><strong>Allgemeine Infos</strong> — Telefon, E-Mail und Adresse</li>
+    </ul>
+    <p style="margin-top:0.6rem;">Klicken Sie auf den Bereich, den Sie ändern möchten.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-num">3</div>
+    <h2>Inhalte ändern</h2>
+    <p>Sie sehen ein einfaches Formular — ähnlich wie ein Word-Dokument. Klicken Sie in ein Feld und tippen Sie Ihre Änderung ein.</p>
+    <p><strong>Speisekarte:</strong> Mit dem „+" Button fügen Sie neue Gerichte hinzu. Mit dem Papierkorb-Symbol löschen Sie Einträge.</p>
+    <p><strong>Fotos:</strong> Klicken Sie auf „Bild auswählen" und laden Sie ein Foto von Ihrem Computer hoch.</p>
+    <div class="warning"><p>Bitte nur Fotos in guter Qualität hochladen (mind. 1000px breit). JPG oder PNG sind ideal.</p></div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">4</div>
+    <h2>Speichern & Veröffentlichen</h2>
+    <p>Wenn Sie fertig sind, klicken Sie oben rechts auf <strong>„Veröffentlichen"</strong>.</p>
+    <p>Die Website aktualisiert sich danach automatisch — das dauert in der Regel <strong>1–2 Minuten</strong>.</p>
+    <div class="tip"><p>Laden Sie die Website danach neu (Taste F5), um Ihre Änderungen zu sehen.</p></div>
+  </div>
+
+  <div class="section-title">Häufige Fragen</div>
+
+  <div class="step">
+    <h2>Ich habe mein Passwort vergessen</h2>
+    <p>Auf der Anmeldeseite gibt es den Link „Passwort vergessen". Sie erhalten dann eine E-Mail mit einem neuen Link.</p>
+  </div>
+
+  <div class="step">
+    <h2>Ich sehe meine Änderungen nicht sofort</h2>
+    <p>Das ist normal — die Website braucht 1–2 Minuten zum Aktualisieren. Bitte Seite neu laden (F5 oder Strg+R).</p>
+  </div>
+
+  <div class="step">
+    <h2>Ich möchte etwas am Design ändern</h2>
+    <p>Design-Änderungen (Farben, Schriften, Layout) sind über das Backend nicht möglich — das schützt das professionelle Erscheinungsbild. Für Design-Anpassungen wenden Sie sich bitte an den Webentwickler.</p>
+  </div>
+
+  <div class="contact-box">
+    <strong>Noch Fragen? Ich helfe gerne.</strong>
+    Bei technischen Problemen oder Fragen zur Website stehe ich jederzeit zur Verfügung:<br><br>
+    📧 <a href="mailto:[deine-email]">[Deine E-Mail]</a><br>
+    📞 [Deine Telefonnummer]<br><br>
+    <span style="font-size:0.78rem; color:#555;">— [Dein Name], Webentwicklung</span>
+  </div>
+
+</main>
+
+</body>
+</html>

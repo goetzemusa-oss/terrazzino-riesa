@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "bild": "/images/galerie/foto1.jpg",
+      "alt": "Foto 1"
+    },
+    {
+      "bild": "/images/galerie/foto2.jpg",
+      "alt": "Foto 2"
+    },
+    {
+      "bild": "/images/galerie/foto3.jpg",
+      "alt": "Foto 3"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "name": "The Classic", "beschreibung": "Dry-aged Beef, Cheddar, Salatgurke, Tomate, Saucen", "preis": "14,50" },
+    { "name": "Bacon BBQ", "beschreibung": "Beef, knuspriger Bacon, BBQ-Sauce, Zwiebeln, Cheddar", "preis": "15,90" },
+    { "name": "Mushroom Swiss", "beschreibung": "Beef, Champignons, Gruyère, Rucola, Trüffelmajonaise", "preis": "16,50" },
+    { "name": "The Vino Burger", "beschreibung": "Beef, Rotweinzwiebeln, Brie, Rucola, Feigensenf", "preis": "17,50" }
+  ]
+}

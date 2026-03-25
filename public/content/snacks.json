@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "name": "Pommes frites", "beschreibung": "Klassisch oder mit Trüffelsalz", "preis": "4,50" },
+    { "name": "Käseplatte", "beschreibung": "Drei Käsesorten, Trauben, Feigensenf", "preis": "12,90" },
+    { "name": "Oliven & Brot", "beschreibung": "Marinierte Oliven, Ciabatta, Olivenöl", "preis": "6,50" }
+  ]
+}

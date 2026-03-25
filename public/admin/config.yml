@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+locale: de
+
+collections:
+  # ─── ÖFFNUNGSZEITEN ───────────────────────────────────────
+  - name: oeffnungszeiten
+    label: Öffnungszeiten
+    files:
+      - name: zeiten
+        label: Öffnungszeiten bearbeiten
+        file: public/content/oeffnungszeiten.json
+        fields:
+          - label: Dienstag
+            name: dienstag
+            widget: string
+            default: "08:30 – 18:00"
+          - label: Mittwoch
+            name: mittwoch
+            widget: string
+            default: "08:30 – 18:00"
+          - label: Donnerstag
+            name: donnerstag
+            widget: string
+            default: "08:30 – 18:00"
+          - label: Freitag
+            name: freitag
+            widget: string
+            default: "08:30 – 18:00"
+          - label: Samstag
+            name: samstag
+            widget: string
+            default: "08:30 – 18:00"
+          - label: Montag
+            name: montag
+            widget: string
+            default: "Geschlossen"
+          - label: Sonntag
+            name: sonntag
+            widget: string
+            default: "Geschlossen"
+
+  # ─── SPEISEKARTE ──────────────────────────────────────────
+  - name: speisekarte
+    label: Speisekarte
+    files:
+      - name: burger
+        label: 🍔 Burger
+        file: public/content/burger.json
+        fields:
+          - label: Burger
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Beschreibung, name: beschreibung, widget: string }
+              - { label: Preis (z.B. 14,50), name: preis, widget: string }
+
+      - name: weine
+        label: 🍷 Weine
+        file: public/content/weine.json
+        fields:
+          - label: Weine
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Beschreibung, name: beschreibung, widget: string }
+              - { label: Preis Glas, name: preis_glas, widget: string }
+              - { label: Preis Flasche, name: preis_flasche, widget: string }
+
+      - name: cocktails
+        label: 🍹 Cocktails & Bar
+        file: public/content/cocktails.json
+        fields:
+          - label: Cocktails
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Beschreibung, name: beschreibung, widget: string }
+              - { label: Preis, name: preis, widget: string }
+
+      - name: snacks
+        label: 🥗 Snacks & Beilagen
+        file: public/content/snacks.json
+        fields:
+          - label: Snacks
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Beschreibung, name: beschreibung, widget: string }
+              - { label: Preis, name: preis, widget: string }
+
+  # ─── GALERIE ──────────────────────────────────────────────
+  - name: galerie
+    label: Galerie
+    files:
+      - name: fotos
+        label: Fotos verwalten
+        file: public/content/galerie.json
+        fields:
+          - label: Fotos
+            name: items
+            widget: list
+            max: 6
+            fields:
+              - { label: Foto, name: bild, widget: image }
+              - { label: Beschreibung, name: alt, widget: string }
+
+  # ─── ALLGEMEIN ────────────────────────────────────────────
+  - name: allgemein
+    label: Allgemeine Infos
+    files:
+      - name: kontakt
+        label: Kontakt & Adresse
+        file: public/content/kontakt.json
+        fields:
+          - { label: Telefon, name: telefon, widget: string }
+          - { label: E-Mail, name: email, widget: string }
+          - { label: Adresse, name: adresse, widget: string }
+          - { label: PLZ & Ort, name: ort, widget: string }

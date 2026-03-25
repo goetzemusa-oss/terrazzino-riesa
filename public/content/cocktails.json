@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "name": "Negroni", "beschreibung": "Gin, Campari, roter Vermouth, ein Klassiker", "preis": "9,50" },
+    { "name": "Aperol Spritz", "beschreibung": "Aperol, Prosecco, Soda, Orange", "preis": "8,50" },
+    { "name": "Old Fashioned", "beschreibung": "Bourbon, Angostura, Zucker, Orange", "preis": "10,50" }
+  ]
+}
