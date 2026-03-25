@@ -1,7 +1,8 @@
 {
   "items": [
-    { "name": "Negroni", "beschreibung": "Gin, Campari, roter Vermouth, ein Klassiker", "preis": "9,50" },
-    { "name": "Aperol Spritz", "beschreibung": "Aperol, Prosecco, Soda, Orange", "preis": "8,50" },
-    { "name": "Old Fashioned", "beschreibung": "Bourbon, Angostura, Zucker, Orange", "preis": "10,50" }
+    { "name": "Aperol Spritz", "beschreibung": "Aperol, Prosecco, Soda, Orange – der mediterrane Klassiker", "preis": "8,50" },
+    { "name": "Hugo", "beschreibung": "Holunderblütensirup, Prosecco, Minze, Limette", "preis": "8,50" },
+    { "name": "Campari Soda", "beschreibung": "Campari, Soda, Orange", "preis": "7,50" },
+    { "name": "Limoncello Spritz", "beschreibung": "Limoncello, Prosecco, Soda, Zitrone", "preis": "9,00" }
   ]
 }

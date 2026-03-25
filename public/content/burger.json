@@ -1,8 +1,10 @@
 {
   "items": [
-    { "name": "The Classic", "beschreibung": "Dry-aged Beef, Cheddar, Salatgurke, Tomate, Saucen", "preis": "14,50" },
-    { "name": "Bacon BBQ", "beschreibung": "Beef, knuspriger Bacon, BBQ-Sauce, Zwiebeln, Cheddar", "preis": "15,90" },
-    { "name": "Mushroom Swiss", "beschreibung": "Beef, Champignons, Gruyère, Rucola, Trüffelmajonaise", "preis": "16,50" },
-    { "name": "The Vino Burger", "beschreibung": "Beef, Rotweinzwiebeln, Brie, Rucola, Feigensenf", "preis": "17,50" }
+    { "name": "Spaghetti Bolognese", "beschreibung": "Klassische Fleischsauce, Parmesan, frisches Basilikum", "preis": "13,90" },
+    { "name": "Penne Arrabbiata", "beschreibung": "Scharfe Tomatensauce, Knoblauch, Chili, Parmesan", "preis": "12,50" },
+    { "name": "Pizza Margherita", "beschreibung": "Tomatensauce, Mozzarella, frisches Basilikum", "preis": "11,90" },
+    { "name": "Pizza Diavola", "beschreibung": "Tomatensauce, Mozzarella, scharfe Salami, Chili", "preis": "14,50" },
+    { "name": "Tagliatelle al Tartufo", "beschreibung": "Trüffelcreme, Parmesan, schwarzer Trüffel", "preis": "17,90" },
+    { "name": "Risotto ai Funghi", "beschreibung": "Waldpilze, Weißwein, Parmesan, Rucola", "preis": "15,50" }
   ]
 }

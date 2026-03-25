@@ -1,7 +1,8 @@
 {
   "items": [
-    { "name": "Pommes frites", "beschreibung": "Klassisch oder mit Trüffelsalz", "preis": "4,50" },
-    { "name": "Käseplatte", "beschreibung": "Drei Käsesorten, Trauben, Feigensenf", "preis": "12,90" },
-    { "name": "Oliven & Brot", "beschreibung": "Marinierte Oliven, Ciabatta, Olivenöl", "preis": "6,50" }
+    { "name": "Bruschetta al Pomodoro", "beschreibung": "Geröstetes Ciabatta, Tomaten, Basilikum, Olivenöl", "preis": "7,50" },
+    { "name": "Antipasto Misto", "beschreibung": "Gemischte Vorspeise: Schinken, Oliven, eingelegtes Gemüse, Käse", "preis": "13,90" },
+    { "name": "Insalata Greca", "beschreibung": "Tomaten, Gurke, Oliven, Feta, Oregano, Olivenöl", "preis": "10,50" },
+    { "name": "Zuppa del Giorno", "beschreibung": "Tagessuppe – bitte nachfragen", "preis": "6,50" }
   ]
 }

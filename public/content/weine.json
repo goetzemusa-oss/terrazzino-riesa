@@ -1,7 +1,8 @@
 {
   "items": [
-    { "name": "Tinazzi Ca' de' Rocchi", "beschreibung": "Primitivo, Apulien – vollmundig, würzig", "preis_glas": "6,50", "preis_flasche": "28,00" },
-    { "name": "Château Larose", "beschreibung": "Bordeaux – elegant, tanninreich", "preis_glas": "7,50", "preis_flasche": "34,00" },
-    { "name": "Grüner Veltliner", "beschreibung": "Österreich – frisch, pfeffrig", "preis_glas": "5,90", "preis_flasche": "26,00" }
+    { "name": "Chianti Classico", "beschreibung": "Toskana, Sangiovese – trocken, kirschig, würzig", "preis_glas": "6,50", "preis_flasche": "28,00" },
+    { "name": "Pinot Grigio", "beschreibung": "Norditalien – leicht, frisch, fruchtig", "preis_glas": "5,90", "preis_flasche": "25,00" },
+    { "name": "Prosecco", "beschreibung": "Venetien – perlend, leicht, frisch", "preis_glas": "5,50", "preis_flasche": "24,00" },
+    { "name": "Barolo", "beschreibung": "Piemont, Nebbiolo – kraftvoll, tanninreich, komplex", "preis_glas": "9,50", "preis_flasche": "42,00" }
   ]
 }
